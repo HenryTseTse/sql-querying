@@ -1,7 +1,6 @@
 # SQLZOO Solutions
 
-## 0. [SELECT basics](https://sqlzoo.net/wiki/SELECT_basics)
-<img src="images/world_table.png" height = 200>
+## 0. [SELECT basics]
 
 1. Show the population of Germany.
 ```sql
