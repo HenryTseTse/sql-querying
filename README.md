@@ -1,6 +1,6 @@
 # SQLZOO Solutions
 
-## 0. [SELECT basics]
+## 0. SELECT basics
 
 1. Show the population of Germany.
 ```sql
@@ -20,7 +20,7 @@ SELECT name, area
 FROM world
 WHERE area BETWEEN 200000 AND 250000;
 ```
-## 1. [SELECT name](https://sqlzoo.net/wiki/SELECT_names)
+## 1. SELECT name
 1. Find the country that start with "Y".
 ```sql
 SELECT name
@@ -111,7 +111,7 @@ SELECT name, REPLACE(capital, name, '')
 FROM world
 WHERE capital LIKE CONCAT(name,'_%');
 ```
-## 2. [SELECT from world](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial)
+## 2. SELECT from world
 1. Show the name, continent and population of all countries.
 ```sql
 SELECT name, continent, population 
@@ -197,8 +197,7 @@ AND name LIKE '%u%'
 AND name NOT LIKE '% %';
 ```
 
-## 3. [SELECT from nobel](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial)
-<img src="images/nobel_table.png" height = 200>
+## 3. SELECT from nobel
 
 1. Display Nobel prizes for 1950.
 ```sql
@@ -295,7 +294,7 @@ CASE WHEN subject IN ('Physics', 'Chemistry') THEN 1 ELSE 0 END,
 subject, winner;
 ```
 
-## 5. [SUM and COUNT](https://sqlzoo.net/wiki/SUM_and_COUNT)
+## 5. SUM and COUNT
 1. Show the total population of the world.
 ```sql
 SELECT SUM(population)
